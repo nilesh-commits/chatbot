@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Support Agent - Live Chat Widget
 
 A mini AI support agent for a live chat widget that simulates customer support using OpenAI's GPT-4o-mini.
@@ -284,10 +285,5 @@ The system prompt includes:
 - [ ] **Unit tests** - Jest tests for services
 - [ ] **E2E tests** - Playwright for full flow testing
 
-## 📝 License
 
-MIT
-
----
-
-Built with ❤️ as a take-home assignment for Spur
+>>>>>>> 89bb6e1ca779c932e6bf5cfeba59fa3a72e37f41
