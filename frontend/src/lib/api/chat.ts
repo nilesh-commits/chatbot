@@ -21,8 +21,8 @@ export interface ApiError {
     message: string;
 }
 
-// API Base URL - uses Vite proxy in dev mode
-const API_BASE = '/api';
+// API Base URL - uses env variable in production, Vite proxy in dev
+const API_BASE = import.meta.env.VITE_API_URL || '/api';
 
 /**
  * Send a message to the AI and get a reply
